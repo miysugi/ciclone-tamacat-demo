@@ -8,10 +8,24 @@ public class FizzBuzz {
     }
     public static String fizzBuzz(int number) {
         String result = "";
-        if (canBeDividedByThree(number)) {
-            result += "Fizz";
+
+        if (number % 3 == 0) {
+            result += "fizz";
+        }
+
+        if (number % 5 == 0) {
+            result += "buzz";
+        }
+
+        if (number % 3 != 0 && number % 5 != 0) {
+            result += number;
         }
         return result;
+//        String result = "";
+//        if (canBeDividedByThree(number)) {
+//            result += "Fizz";
+//        }
+//        return result;
     }
     private static boolean canBeDividedByThree(int number){
         new Throwable().printStackTrace();
