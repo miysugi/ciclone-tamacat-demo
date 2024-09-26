@@ -6,6 +6,7 @@ public class FizzBuzz {
             System.out.println(fizzBuzz(i));
         }
     }
+
     public static String fizzBuzz(int number) {
         String result = "";
 
