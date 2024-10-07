@@ -21,11 +21,7 @@ public class FizzBuzz {
             result += number;
         }
         return result;
-//        String result = "";
-//        if (canBeDividedByThree(number)) {
-//            result += "Fizz";
-//        }
-//        return result;
+
     }
     private static boolean canBeDividedByThree(int number){
         new Throwable().printStackTrace();
