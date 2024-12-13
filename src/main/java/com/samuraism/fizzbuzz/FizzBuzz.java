@@ -10,7 +10,7 @@ public class FizzBuzz {
         String result = "";
 
         if (number % 3 == 0) {
-            result += "fizz";
+            result += "Fizz";
         }
 
         if (number % 5 == 0) {
