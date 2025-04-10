@@ -13,7 +13,7 @@ public class FizzBuzz {
             result += "Fizz";
         }
         if (number % 5 == 0) {
-            result += "Buzz";
+            result += "buzz";
         }
         if (number % 3 != 0 && number % 5 != 0) {
             result = String.valueOf(number);
