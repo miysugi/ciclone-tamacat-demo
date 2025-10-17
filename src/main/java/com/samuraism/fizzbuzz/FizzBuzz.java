@@ -9,7 +9,6 @@ public class FizzBuzz {
 
     public static String fizzBuzz(int number) {
         String result = "";
-
         if (number % 3 == 0) {
             result += "Fizz";
         }
@@ -20,6 +19,5 @@ public class FizzBuzz {
             result = String.valueOf(number);
         }
         return result;
-
     }
 }
