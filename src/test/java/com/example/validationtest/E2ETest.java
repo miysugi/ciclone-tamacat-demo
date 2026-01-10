@@ -83,6 +83,8 @@ public class E2ETest {
             driver.get("http://localhost:" + port + "/");
             WebElement name = driver.findElement(By.id("name"));
             name.clear();
+
+
             name.sendKeys("山本ユースケ");
             WebElement age = driver.findElement(By.id("age"));
             age.clear();
