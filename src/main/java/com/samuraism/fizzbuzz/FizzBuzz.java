@@ -7,19 +7,6 @@ public class FizzBuzz {
         }
     }
 
-    /**
-     * 指定された数値に基づき、FizzBuzz の判定結果を返します。
-     * 判定ルール:
-     * <ul>
-     *     <li>3 で割り切れる場合は "Fizz"</li>
-     *     <li>5 で割り切れる場合は "Buzz"</li>
-     *     <li>3 と 5 の両方で割り切れる場合は "FizzBuzz"</li>
-     *     <li>それ以外の場合は、その数値を文字列として返します</li>
-     * </ul>
-     *
-     * @param number 判定する数値
-     * @return 判定結果の文字列
-     */
     public static String fizzBuzz(int number) {
         String result = "";
 
