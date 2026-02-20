@@ -7,17 +7,6 @@ public class FizzBuzz {
         }
     }
 
-    /**
-     * Determines whether a given integer is divisible by 3, 5, or both, and returns the corresponding string.
-     * If the number is divisible by 3, "Fizz" is returned.
-     * If the number is divisible by 5, "Buzz" is returned.
-     * If the number is divisible by both 3 and 5, "FizzBuzz" is returned.
-     * If the number is not divisible by 3 or 5, the number itself is returned as a string.
-     *
-     * @param number the integer to evaluate for divisibility by 3 and 5
-     * @return "Fizz" if the number is divisible by 3, "Buzz" if divisible by 5,
-     *         "FizzBuzz" if divisible by both 3 and 5, or the number as a string if divisible by neither
-     */
     public static String fizzBuzz(int number) {
         String result = "";
 
@@ -32,6 +21,4 @@ public class FizzBuzz {
         }
         return result;
     }
-
-    
 }
