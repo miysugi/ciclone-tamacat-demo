@@ -13,7 +13,7 @@ class FizzBuzzTest {
     }
     @Test
     void fizz(){
-        assertEquals("Fizz", FizzBuzz.fizzBuzz(3));
+        assertEquals("fizz", FizzBuzz.fizzBuzz(3));
         assertEquals("Fizz", FizzBuzz.fizzBuzz(6));
         assertEquals("Fizz", FizzBuzz.fizzBuzz(99));
     }
