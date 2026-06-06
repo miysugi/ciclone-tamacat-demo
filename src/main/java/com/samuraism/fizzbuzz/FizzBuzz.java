@@ -6,7 +6,6 @@ public class FizzBuzz {
             System.out.println(fizzBuzz(i));
         }
     }
-
     /**
      * 指定された整数に応じて "Fizz", "Buzz", または "FizzBuzz" を返すメソッド。
      * 以下のルールに従って結果を決定する:
